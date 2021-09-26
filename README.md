@@ -44,3 +44,26 @@ ctrl+c
 - パーツのまとまりでありロジックを持つものcomponent/organisms
 
 - ページ作成時にはレイアウトを使用component/templateのコンポーネントをimportする
+
+
+### git運用
+
+- 割り振られたタスク番号でブランチをきる
+```
+git checkout -b feature/A-1
+```
+
+- タスク完了時にpush
+```
+git push origin HEAD
+```
+
+- masterが更新されたら作業ブランチに反映させる
+```
+git pull origin master
+```
+
+- commitメッセージ
+```
+git commit -m "なんかメッセージ close #タスクのissue番号"
+```
