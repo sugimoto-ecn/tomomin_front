@@ -3,7 +3,7 @@ import React from 'react'
 const UserRegister = () => {
     return (
         <div>
-            A-4 ユーザー設定
+            あなたの情報を登録しましょう
         </div>
     )
 }
