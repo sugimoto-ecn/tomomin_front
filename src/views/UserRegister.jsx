@@ -4,15 +4,6 @@ import './UserRegister.module.css'
 const UserRegister = () => {
     return (
         <div>
-            <html lang="ja">
-                <head>
-                    <meta charset="UTF-8" />
-                    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"></link>
-                </head>
-
-                <body>
                     <h3>あなたの情報を登録しましょう</h3>
 
                     <div className="col-5 mx-auto">
@@ -28,14 +19,7 @@ const UserRegister = () => {
                         <input type="text" class="form-control" id="Input" />
                     </div>
 
-
-
                     <center><i classN="fas fa-arrow-circle-right fa-3x"></i></center>
-
-
-                </body>
-
-            </html>
         </div>
 
 
