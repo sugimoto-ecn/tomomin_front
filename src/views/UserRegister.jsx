@@ -30,7 +30,7 @@ const UserRegister = () => {
 
 
 
-                    <center><i className="fas fa-arrow-circle-right fa-3x"></i></center>
+                    <center><i classN="fas fa-arrow-circle-right fa-3x"></i></center>
 
 
                 </body>
