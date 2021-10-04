@@ -19,7 +19,7 @@ const UserRegister = () => {
                         <input type="text" class="form-control" id="Input" />
                     </div>
 
-                    <center><i classN="fas fa-arrow-circle-right fa-3x"></i></center>
+                    <center><i className="fas fa-arrow-circle-right fa-3x"></i></center>
         </div>
 
 
