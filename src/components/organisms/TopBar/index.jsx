@@ -4,28 +4,29 @@ import styles from './TopBar.module.css'
 const TopBar = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
-
-                        <img src="..." alt="サービス名の画像" width="30" height="30" />
-                    </a>
-                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarForm" aria-controls="navbarForm" aria-expanded="false" aria-label="ナビゲーションの切替">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarForm">
-                        <form className="d-flex ms-auto">
-                            <input type="text" class="form-control me-2" placeholder="友達を探す" aria-label="検索..." />
-                            <button type="submit" class="btn btn-outline-secondary flex-shrink-0">検索</button>
-
-                            <i className="fas fa-user-cog fa-2x"></i>{/* 画像が表示されない*/}
-                        </form>Ï
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">  <img src="..." alt="サービス名の画像" width="30" height="30" /></a>
+                    <form class="d-flex mr-auto">
+                        {/*友達検索*/}
+                        <input type="search" class="form-control me-sm-2" placeholder="友達を検索する" aria-label="検索..." />
+                        <button type="submit" class="btn btn btn-outline-secondary flex-shrink-0">検索</button>
+                    </form>
+                    {/*ドロップダウンメニュー */}
+                    <div className="d-flex ml-auto">
+                        <div className="dropdown">
+                            <a className="btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i className="fas fa-user-cog fa-2x " style={{ color: '#666666' }}></i>
+                            </a>
+                            <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a className="dropdown-item" href="#">メニュー1</a></li>
+                                <li><a className="dropdown-item" href="#">メニュー2</a></li>
+                                <li><a className="dropdown-item" href="#">メニュー3</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </nav>
-
-
-
         </div>
     )
 }
