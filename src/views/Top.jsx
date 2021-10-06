@@ -1,11 +1,12 @@
 import React from 'react';
-import './Top.module.css';
+import styles from './Top.module.css';
 
 
 const Top = () => {
     return ( 
-        
-        <center>
+        <div> {/*消さない*/}
+        <i class="fas fa-arrow-left fa-2x"></i>
+        <center className={`${styles.test}`}>
  
         <div className="t1">
           <h1>一緒におやすみ</h1>
@@ -21,19 +22,19 @@ const Top = () => {
         
         
         <div className="box1">
-        <button type="button" className="btn btn-primary rounded-pill">Googleアカウントで登録</button>
+        <button type="button" className="btn rounded-pill btn-light">Googleアカウントで登録</button>
         </div>
         <br/>
         <div className="box2">
-        <button type="button" className="btn btn-primary rounded-pill">メールアドレスで登録</button>
+        <button type="button" className="btn rounded-pill btn-light">メールアドレスで登録</button>
         </div>
         <br/>
         <div className="box1">
-        <button type="button" className="btn btn-primary rounded-pill">ログイン</button>
+        <button type="button" className="btn rounded-pill btn-light">ログイン</button>
         </div>
         
         </center>
-            
+        </div> 
     )
 }
 
