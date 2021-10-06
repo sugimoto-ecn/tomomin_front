@@ -5,7 +5,7 @@ const Product = () => {
         return (
             <div>
                 <div className='out'>
-                <h2>基礎演習D第２回課題</h2>
+                <h2>暗証番号確認画面</h2>
                 
                     <div className='center'>
                         <br></br>
