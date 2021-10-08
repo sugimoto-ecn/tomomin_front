@@ -2,9 +2,6 @@ h1 {
 text-align: center;
 }
 
-.center {
-	position: absolute;
-	top: 150%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+.test{
+	width: 100%;
 }
