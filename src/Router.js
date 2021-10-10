@@ -10,7 +10,10 @@ import {
  } from './views'
 
  import {
-     SleepData
+     SleepData,
+     TimeSetting,
+     UserSetting,
+     Follows
  } from "./views/dashboard"
 
 
@@ -27,6 +30,9 @@ const router = () => {
                 <Route exact path="/auth/product" component={Product} />
 
                 <Route exact path="/dashboard/sleeps" component={SleepData} />
+                <Route exact path="/dashboard/time-setting" component={TimeSetting} />
+                <Route exact path="/dashboard/user-setting" component={UserSetting} />
+                <Route exact path="/dashboard/follows" component={Follows} />
             </Switch>
         </Router>
     )
