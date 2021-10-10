@@ -1,0 +1,35 @@
+
+.title{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    margin-right: 7em;
+    
+   
+}
+.choose{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2em;
+}
+
+.sleep{
+  display: flex;
+  justify-content: flex-end;
+    
+}
+i{
+    margin-left: 2em;
+}
+.timegraph{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    margin-left: 20em;
+    
+}
+.graph{
+    width:30em; 
+    height:20em;
+    margin-left: 12em;
+}
