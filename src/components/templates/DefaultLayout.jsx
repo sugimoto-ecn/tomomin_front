@@ -7,7 +7,9 @@ const DefaultLayout = ({children}) => {
     return (
         <div>
             <TopBar />
+            <div className="col-2">
             <SideBar />
+            </div>
             {children}
         </div>
     )

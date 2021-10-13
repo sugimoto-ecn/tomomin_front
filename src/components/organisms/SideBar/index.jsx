@@ -5,9 +5,7 @@ const SideBar = () => {
     return (
         <div>
             <div class="sidebar">
-                <div class="row">
-                    <div class="col-2">
-                        <div class="position-sticky pt-md-5"　style={{'background-color': 'whitesmoke', 'min-height': '100vh'}}>
+                        <div class="position-sticky pt-md-5"　style={{'background-color': 'whitesmoke', 'min-height': '92vh'}}>
   　　　　　　　　　　　　      <ul class="nav flex-column">
                                 <li class="nav-item">
                                     <a class="nav-link active text-dark" aria-current="page" href="#">
@@ -55,8 +53,6 @@ const SideBar = () => {
                                 </li>
                             </ul>
                         </div>
-                    </div>
-                </div>
             </div>
         </div>
     )
