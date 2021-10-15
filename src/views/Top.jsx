@@ -5,7 +5,7 @@ import styles from './Top.module.css';
 const Top = () => {
     return ( 
         <div> {/*消さない*/}
-        <i class="fas fa-arrow-left fa-2x"></i>
+        <i class="icon fas fa-arrow-left fa-2x"></i>
         <center className={`${styles.test}`}>
  
         <div className="t1">

@@ -25,7 +25,7 @@ const TopBar = () => {
                         {/* ドロップダウンメニュー */}
                         <Dropdown>
                             <Dropdown.Toggle variant="light">
-                                <i className="fas fa-user-cog fa-2x " style={{ color: '#666666' }}></i>
+                                <i className="fas fa-user-cog fa-2x" style={{ color: '#666666', padding: 'none !important' }}></i>
                             </Dropdown.Toggle>
                             <Dropdown.Menu>
                                 <Dropdown.Item href="#/action-1">Action</Dropdown.Item>

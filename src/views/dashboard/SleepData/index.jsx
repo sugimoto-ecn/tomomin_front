@@ -90,7 +90,7 @@ const SleepData = () => {
                                         <Card.Body>
                                             <Card.Title style={{ fontSize: '1.2rem' }}>平均睡眠時間</Card.Title>
                                             <Card.Text style={{ fontSize: '2rem' }}>
-                                                5:00<i className="fas fa-circle"></i>
+                                                5:00<i className="i_sleep fas fa-circle"></i>
                                             </Card.Text>
                                         </Card.Body>
                                     </Card></Col>
@@ -98,7 +98,7 @@ const SleepData = () => {
                                         <Card.Body>
                                             <Card.Title style={{ fontSize: '1.2rem' }}>平均就寝時間</Card.Title>
                                             <Card.Text style={{ fontSize: '2rem' }}>
-                                                23:00<i className="fas fa-circle"></i>
+                                                23:00<i className="i_sleep fas fa-circle"></i>
                                             </Card.Text>
                                         </Card.Body>
                                     </Card></Col>
@@ -106,7 +106,7 @@ const SleepData = () => {
                                         <Card.Body>
                                             <Card.Title style={{ fontSize: '1.2rem' }}>平均起床時間</Card.Title>
                                             <Card.Text style={{ fontSize: '2rem' }}>
-                                                6:00<i className="fas fa-circle"></i>
+                                                6:00<i className="i_sleep fas fa-circle"></i>
                                             </Card.Text>
                                         </Card.Body>
                                     </Card>
