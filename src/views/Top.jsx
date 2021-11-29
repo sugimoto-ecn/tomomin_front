@@ -1,8 +1,10 @@
 import React from 'react';
 import styles from './Top.module.css';
+import { Link } from 'react-router-dom'
 
 
 const Top = () => {
+  console.log('top')
     return ( 
         <div> {/*消さない*/}
         <i class="icon fas fa-arrow-left fa-2x"></i>
@@ -16,21 +18,28 @@ const Top = () => {
         </div>
             <br/>
         <div className="t3">
-        新規登録
+          <button className="btn rounded-pill btn-light">
+            {/* <Link to="/auth/register" className="text-dark text-decoration-none">
+            新規登録
+            </Link> */}
+          </button>
         </div>
             <br/> 
         
         
         <div className="box1">
-        <button type="button" className="btn rounded-pill btn-light">Googleアカウントで登録</button>
         </div>
         <br/>
         <div className="box2">
-        <button type="button" className="btn rounded-pill btn-light">メールアドレスで登録</button>
+            <Link to="/auth/register" className="text-dark text-decoration-none">
+            メールアドレスで登録
+            </Link>
         </div>
         <br/>
         <div className="box1">
-        <button type="button" className="btn rounded-pill btn-light">ログイン</button>
+            <Link to="/auth/login" className="text-dark text-decoration-none">
+              ログイン
+            </Link>
         </div>
         
         </center>

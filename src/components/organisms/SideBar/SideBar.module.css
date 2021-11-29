@@ -1,3 +1,13 @@
-a:hover {
+/* a:hover {
     background-color: lightgray;
+} */
+
+.pointer{
+    cursor: pointer;
+}
+.pointer:hover{
+    background-color: rgba(211, 211, 211, 0.678);
+}
+.activeNav{
+    background-color: rgba(211, 211, 211, 0.678);
 }

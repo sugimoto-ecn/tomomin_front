@@ -1,12 +1,13 @@
 import React from 'react'
 import Router from './Router'
+import { UserProvider } from './providers/UserProvider'
 
 
 const App = () => {
   return (
-  <div>
-    <Router/>
-  </div>
+    <UserProvider>
+      <Router/>
+    </UserProvider>
   )
 }
 

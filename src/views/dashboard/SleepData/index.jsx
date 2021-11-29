@@ -1,14 +1,17 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import styles from "./SleepData.module.css"
 import DefaultLayout from '../../../components/templates/DefaultLayout'
 import { Line } from 'react-chartjs-2';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Form, Select, Row, Col, Card, } from 'react-bootstrap';
 import { style } from 'dom-helpers';
+import { UserContext } from '../../../providers/UserProvider';
 
 
 const SleepData = () => {
 
+    const context = useContext(UserContext)
+    console.log(context.userInfo)
 
     const data1 = {
         // x 軸のラベル
