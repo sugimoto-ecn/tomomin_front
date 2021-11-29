@@ -6,7 +6,7 @@ import { Dropdown } from 'react-bootstrap';
 
 const TopBar = () => {
     return (
-        <div>
+        <div className={`${styles.topBar}`}>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <div className="row">

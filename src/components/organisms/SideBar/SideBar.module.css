@@ -1,7 +1,13 @@
 /* a:hover {
     background-color: lightgray;
 } */
-
+.sideBar{
+    background-color: whitesmoke;
+    position: fixed;
+    top:64px;
+    left:0;
+    padding: 0 !important;
+}
 .pointer{
     cursor: pointer;
 }

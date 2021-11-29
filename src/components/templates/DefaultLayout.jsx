@@ -5,12 +5,14 @@ import styles from './Default.module.css'
 
 const DefaultLayout = ({children}) => {
     return (
-        <div>
+        <div className="row　p-0 no-gutters">
             <TopBar />
-            <div className="col-2">
+            
             <SideBar />
-            </div>
+            
+            <div className="offset-2 col-10" style={{ paddingLeft:"10px", paddingTop:"74px"}}>
             {children}
+            </div>
         </div>
     )
 }

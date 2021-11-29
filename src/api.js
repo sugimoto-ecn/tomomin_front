@@ -68,4 +68,14 @@ export const getLoginUser = async (id) => {
     }
 }
 
+export const createSchedule = async(id, body) => {
+    try{
+        const res = await apiWithAuth.post(`/schedule/${id}/create`, body)
+        return res.data
+    }catch(err) {
+        console.log(err.response)
+        return err?.response?.data && err
+    }
+}
+
 // export const 
