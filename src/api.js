@@ -78,4 +78,13 @@ export const createSchedule = async(id, body) => {
     }
 }
 
+export const getSchedule = async(id) => {
+    try{
+        const res = await apiWithAuth.get(`/schedule/${id}/getone`)
+        return res.data
+    }catch(err) {
+        console.log(err.response)
+        return err?.response?.data && err
+    }
+}
 // export const 
