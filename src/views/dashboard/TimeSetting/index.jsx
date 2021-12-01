@@ -49,7 +49,7 @@ const TimeSetting = () => {
   }, [])
   
   const filterTime = (value) => {
-      if(Number(value) < 10){
+      if(Number(value) < 10 && String(value).length <= 1){
           console.log(`0${value}`)
           return `0${value}`
       }
