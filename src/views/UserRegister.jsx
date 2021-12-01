@@ -41,7 +41,7 @@ const UserRegister = () => {
             context.setUserInfo(res?.user)
             localStorage.setItem('accessToken', res.user.accessToken)
 
-            history.push('/dashboard/sleeps')
+            history.push('/auth/product')
         }catch(err){
             console.log(err)
             setError("エラーが発生しました")
