@@ -1,4 +1,13 @@
-
+.kanri{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.account{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
 .mabu{
     margin-top: 3em;
 }
