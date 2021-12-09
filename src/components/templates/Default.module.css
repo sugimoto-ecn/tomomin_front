@@ -1,0 +1,19 @@
+/* a:hover {
+    background-color: lightgray;
+} */
+.sideBar{
+    background-color: whitesmoke;
+    position: fixed;
+    top:64px;
+    left:0;
+    padding: 0 !important;
+}
+.pointer{
+    cursor: pointer;
+}
+.pointer:hover{
+    background-color: rgba(211, 211, 211, 0.678);
+}
+.activeNav{
+    background-color: rgba(211, 211, 211, 0.678);
+}
