@@ -31,7 +31,7 @@ const card = (
                 <TextField
                     label='ユーザー名'
                     id="standard"
-                    defaultValue="もちもち"
+                    defaultValue="Tomomin"
                     variant="standard"
                     margin="normal"
 
@@ -39,14 +39,14 @@ const card = (
                 <TextField
                     id="standard"
                     label="メールアドレス"
-                    defaultValue="11111@e-mail.ne.jp"
+                    defaultValue="Tomomin@e-mail.ne.jp"
                     variant="standard"
                     margin="normal"
                 />
                 <TextField
                     id="standard"
                     label="フリーコメント"
-                    defaultValue="おはよう"
+                    defaultValue="毎日ねむい"
                     variant="standard"
                     margin="normal"
                 />
@@ -62,11 +62,14 @@ const UserSetting = () => {
             <DefaultLayout>
                 <>
                     <div>
+                    <div className={styles.kanri}>
                           <Typography variant="h4" gutterBottom component="div">
                             アカウント管理
                                 </Typography>
-                        <Box
-                            sx={{
+                                </div>
+
+                                <div className={styles.account}>
+                        <Box sx={{
                                 maxWidth: 500,
                                 color: '#fff',
                                 textAlign: 'center',
@@ -79,6 +82,7 @@ const UserSetting = () => {
                             </div>
 
                         </Box>
+                        </div>
                     </div>
                 </>
             </DefaultLayout>
