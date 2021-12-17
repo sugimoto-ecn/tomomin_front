@@ -135,8 +135,9 @@ export default function UserSetting() {
           <Button size="small">Learn More</Button>
         </CardActions>
       </Card>
-                                   <div className={`${styles.mabu}`}>                                 {/* <Button size="large" >変更を保存</Button> */}
-                           </div>
+                                   {/* <div className={`${styles.mabu}`}>                                 
+                                   <Button size="large" >変更を保存</Button>
+                           </div> */}
 
     </DefaultLayout>
   );
